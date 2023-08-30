@@ -107,6 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             const Text(
               'O número abaixo é a quantidade de vezes:',
+              style: TextStyle(color: Colors.redAccent, fontSize: 20),
             ),
             Text(
               '$_counter',
